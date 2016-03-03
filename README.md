@@ -16,11 +16,3 @@ Changepoint problems, Statistics and computing 16.2 (2006), pp. 203--213
 Multivariate Time Series, ICML (2007), pp. 1055--1062
     
 To see it in action have a look at the [example notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/hildensia/bayesian_changepoint_detection/master/Example%20Code.ipynb?create=1 "Example Code in an IPython Notebook").
-
-###Tips:
-- The online version is basically a translation of the matlab version of the paper from
-author [1] (found in matlab-implementation)
-- The offline version is an implementation based on [2] and [3].
-- Something conversation I found that might be interesting:
-Q: Is it possible to make Ryan Adams algorithm [1] to work on multivariate data too?
-A: The change should be relatively easy, but a bit time consuming. It's only updating the student t distribution to handle multivariate data correctly. 
